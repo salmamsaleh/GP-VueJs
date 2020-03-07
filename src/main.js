@@ -34,7 +34,7 @@ require("@/assets/css/style.css");
 require("@/assets/js/vendors.min");
 //require("@/assets/js/app-chat");
 require("@/assets/js/components");
-require("@/assets/js/app-todo");
+//require("@/assets/js/app-todo");
 /*
 =======================================================
 */
