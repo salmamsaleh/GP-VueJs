@@ -1,18 +1,36 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+<div class="content-wrapper home">
+        <div class="content-body">
+    	<div class="card-content">
+    		<div class="card-body">
+      <div class="row">
+        
+        <left-side></left-side>
+        <div class="col-lg-1 col-12 ">
+                        </div>
+        <right-side></right-side>
+      </div>
+    		</div>
+        </div>
+        </div>
+</div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
+import LeftSide from "./HomePage/LeftSide.vue";
+import RightSide from "./HomePage/RightSide.vue";
 export default {
   name: "home",
   components: {
-    HelloWorld
+    LeftSide,
+    RightSide
   }
 };
 </script>
+
+<style>
+.home{
+  margin-left: 19em
+}
+</style>
+

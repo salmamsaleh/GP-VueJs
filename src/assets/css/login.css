@@ -1,0 +1,151 @@
+.login{
+    background-image: url(../images/09.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.intro .row .col
+{
+    margin-top: 7em;
+    height: 550px;
+}
+.intro .row .first-col
+{
+    background-color: #031d2d96;
+    padding-top: 16%;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px
+}
+.intro .row .first-col a,
+.intro .row .first-col h1
+{
+    display: inline;
+}
+.intro .row .first-col a
+{
+    color: #32D9D9;
+    font-size: 40px;
+    margin-right: 1%;
+    margin-left: 10%
+}
+.intro .row .first-col h1
+{
+    color: #fff;
+    font-family: 'Muli', sans-serif;
+}
+.intro .row .first-col .small-quote 
+{
+    width: 65%;
+    margin-top: 3%;
+    margin-left: 21%
+}
+.intro .row .first-col .small-quote p
+{
+    font-size: 18px;
+    color: #fff;
+}
+.intro .row .second-col
+{
+    background-color: #fff;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    padding-top: 3%
+}
+.intro .row .second-col h3
+{
+    color: #339af0
+}
+.intro .row .second-col a,
+.intro .row .second-col h2
+{
+    display: inline;
+}
+.intro .row .second-col h2,
+.intro .row .second-col h3
+{
+    font-family: 'Muli', sans-serif;
+    color: #38A1F3;
+}
+.intro .row .second-col a
+{
+    color: #32D9D9;
+    font-size: 40px;
+    margin-right: 1%;
+    margin-left: 12%
+}
+.intro .row .second-col .small-quote 
+{
+    width: 65%;
+    margin-top: 3%;
+    margin-left: 23.5%
+}
+.intro .row .second-col .small-quote p
+{
+    font-size: 18px;
+    color:#6b6b6b
+}
+.intro .row .second-col .form
+{
+    width: 60%;
+    display: inline-block;
+    margin-top: 3%;
+    margin-left: 20%
+}
+.intro .row .second-col .form form input,
+.intro .row .second-col .form form button
+{
+    display: block;
+    padding-left: 1%;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5%
+}
+.intro .row .second-col .form form input
+{
+    background: none;
+    border: none;
+    border-bottom: 1.5px solid #38A1F3;
+    outline: none;
+    box-shadow: none;
+}
+.form-control{
+    border-radius: 0;
+}
+.intro .row .second-col .form form button
+{
+    background-color: #38A1F3;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+}
+.intro .row .second-col .create-acc
+{
+    margin-left: 28%;
+    margin-top: 3%
+}
+.intro .row .second-col .create-acc .line{
+    border-bottom: 1.5px solid #6b6b6b;
+    width: 28%
+}
+
+.intro .row .second-col .create-acc span
+{
+    display: inline-block;
+    font-size: 18px;
+    color: #6b6b6b;
+}
+.intro .row .second-col h6
+{
+    margin-left: 20%;
+    margin-top: 5%;
+    color: #38A1F3
+}
+.intro .row .second-col h6 a
+{
+    color: #e41919;
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: 16px
+}
